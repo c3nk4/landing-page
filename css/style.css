@@ -201,10 +201,11 @@ h4.cizgi::before {
     display: none;
     position: fixed;
     z-index: 995;
+    left: 0;
     top: 0;
     background-color: #000;
     opacity: 0.8;
-    width: 83%;
+    width: 100%;
     height: 100%;
 }
 
