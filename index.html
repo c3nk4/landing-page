@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Css (Bootstrap CDN, Style) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Landing Page</title>
+</head>
+
+<body>
+
+  <!-- Header Section Start -->
+
+  <header class="header">
+    <section class="menu" id="menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-lg bg-transparent">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">LOGO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav ms-auto">
+                    <a class="nav-link" aria-current="page" href="index.html">Ana Sayfa</a>
+                    <a class="nav-link" href="#destination">Destinasyonlar</a>
+                    <a class="nav-link" href="#hakkimizda">Hakkımızda</a>
+                    <a class="nav-link" href="#tesisler">Tesisler</a>
+                    <a class="nav-link" href="#iletisim">İletişim</a>
+                    <a class="nav-link ms-5" href="index.html"><i class="bi bi-person"></i> Giriş Yap</a>
+                    <a href="index.html"><button class="btn btn-warning fw-bold rounded-0">Kaydol</button></a>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+
+  <!-- Header Section End -->
+
+  <!-- Hero Section Start -->
+
+  <section id="hero" class="hero text-white text-center py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 heading-hero">
+          <h1 class="text-center">Dünya'yı Şimdi Keşfe Çıkın</h1>
+          <h2>Fırsatları Kaçırmayın!</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sed ut porro cumque, laboriosam dicta
+            perspiciatis.</p>
+          <!-- Video Pop-up Start -->
+          <div class="vpop btn btn-outline-light" data-type="youtube" data-id="hRpxiDCZj8E" data-autoplay='true'><i
+              class="bi bi-play-circle"></i> İzleyin</div>
+          <div id="video-popup-overlay"></div>
+          <div id="video-popup-container">
+            <div id="video-popup-close" class="fade"><i class="bi bi-x-lg"></i></div>
+            <div id="video-popup-iframe-container">
+              <iframe id="video-popup-iframe" src="" width="100%" height="100%" frameborder="0"></iframe>
+            </div>
+          </div>
+          <!-- Video Pop-up End -->
+        </div>
+        <div class="col-md-6">
+          <form class="row g-3">
+            <h3>Hemen Başla</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit cupiditate eaque ut vero.</p>
+            <div class="col-md-12">
+              <input type="text" class="form-control" placeholder="Adınız" id="inputAdiniz">
+            </div>
+            <div class="col-md-12">
+              <input type="text" class="form-control" placeholder="Soyadınız" id="inputSoyadiniz">
+            </div>
+            <div class="col-md-12">
+              <input type="email" class="form-control" placeholder="Email Adresiniz" id="inputEmailiniz">
+            </div>
+            <div class="col-md-12">
+              <input type="text" class="form-control" placeholder="Telefon Numaranız" id="inputTelefon">
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn px-3 mb-3">KAYDOL</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hero Section End -->
+
+
+  <!-- Destination Section Start -->
+
+  <section class="destination py-5 border-0" id="destination">
+    <div class="container">
+      <h3 class="cizgi text-center">Popüler Destinasyonlar</h3>
+      <p class="my-5 text-center fw-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo provident
+        reiciendis nobis quae illum atque expedita tempore rerum iure, libero beatae quas minus quasi aspernatur
+        inventore praesentium, perferendis Eius!</p>
+      <div class="row gy-5">
+        <div class="col-md-3">
+          <div class="card">
+            <img class="card-img-top" src="img/paris-image-1000x667px.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Paris, Fransa</h5>
+              <p>17. yüzyıldan beri Paris Avrupa'nın en önemli finans, diplomasi, ticaret, moda, gastronomi, bilim ve
+                sanat merkezlerindendir.</p>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img class="card-img-top" src="img/rome-image-1000x667px.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Roma, İtalya</h5>
+              <p>Roma veya Roma komünü, İtalya'nın, Lazio bölgesinin ve aynı zamanda Roma ilinin başkentidir. Roma hem
+                şehir hem de komün statüsü taşır.</p>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img class="card-img-top" src="img/barcelona-image-1000x667px.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Barselona, İspanya</h5>
+              <p>Barselona, İspanya'nın kuzeydoğu kıyısında bulunan bir kent. İspanya'nın nüfus bakımından ikinci en
+                büyük kentidir.</p>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="img/wien-image-1000x667px.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Viyana, Avusturya</h5>
+              <p>Viyana, Avusturya'nın başkenti ve en büyük şehri, aynı zamanda ülkenin dokuz eyaletinden yüzölçümü
+                bakımından en küçüğüdür.</p>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-12">
+          <a href="#destination"><button class="btn btn-warning rounded-pill my-5 fw-bold shadow-lg">Hepsini
+              Gör</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Destination Section End -->
+
+  <!-- Neden Biz Section Start -->
+
+  <section class="neden py-5 bg-light" id="hakkimizda">
+    <div class="container-fluid px-5">
+      <h3 class="cizgi text-center mb-5">Neden Biz?</h3>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6">
+              <i class="bi bi-headset"></i>
+              <h4>7/24 Canlı Destek</h4>
+              <p>Lorem ipsum dolor sit amet consectetur harum beatae quae deserunt</p>
+            </div>
+            <div class="col-md-6">
+              <i class="bi bi-shield"></i>
+              <h4>Güvenilir Hizmet</h4>
+              <p>Quo provident reiciendis nobis quae illum culpa sint</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <i class="bi bi-flag"></i>
+              <h4>20 Yıllık Tecrübe</h4>
+              <p>Saepe corrupti labore repellat placeat quo deleniti quae illum</p>
+            </div>
+            <div class="col-md-6">
+              <i class="bi bi-globe-americas"></i>
+              <h4>Binlerce Seyahat Noktası</h4>
+              <p>Voluptas deleniti ipsa recusandae laboriosam minus enim vel dicta</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h3>Sizlere yardımcı olmaktan mutluluk duyuyoruz</h3>
+          <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, a. Adipisci similique sed
+            tenetur culpa sint, harum beatae quae deserunt fuga eum expedita cupiditate maiores quidem quod laboriosam
+            minus enim vel dicta temporibus corporis tenetur quo provident reiciendis nobis quae illum atque expedita
+            deserunt sunt, saepe corrupti labore repellat, placeat quo explicabo, voluptas deleniti</p>
+          <a href="#hakkimizda"><button class="btn btn-warning rounded-pill fw-bold shadow-lg">Hakkımızda</button></a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Neden Biz Section End -->
+
+
+  <!-- Tesisler Section Start -->
+
+  <section class="tesisler py-5" id="tesisler">
+    <div class="container">
+      <h3 class="cizgi text-center">Tesis Tipleri</h3>
+      <p class="text-center my-5 fw-bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, officia
+        nam. Quas deserunt sunt, saepe corrupti labore repellat, placeat quo explicabo, voluptas deleniti ipsa!
+        Recusandae.</p>
+      <div class="row gy-4">
+        <div class="col-md-3">
+          <div class="tesis">
+            <img src="img/otel-pool-1000x667px.jpg" alt="">
+            <div class="cap">Oteller</div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="tesis">
+            <img src="img/otel-image-1000x667px.jpg" alt="">
+            <div class="cap">Pansiyonlar</div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="tesis">
+            <img src="img/camping-image-1000x667px.jpg" alt="">
+            <div class="cap">Kamp Alanları</div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="tesis">
+            <img src="img/villa-image-1000x667px.jpg" alt="">
+            <div class="cap">Villalar</div>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-12">
+          <a href="#tesisler"><button class="btn btn-warning rounded-pill my-5 fw-bold shadow-lg">Hepsini
+              Gör</button></a>
+        </div>
+      </div>
+  </section>
+
+  <!-- Tesisler Section End -->
+
+
+  <!--İletişim Section Start  -->
+
+  <section class="iletisim py-5" id="iletisim">
+    <div class="container-fluid">
+      <h3 class="cizgi text-center mb-5">İletişim</h3>
+      <p class="fw-bold text-center my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, fuga architecto.
+        Et voluptas amet laboriosam quasi quo. Nisi eligendi culpa nesciunt quis magnam, aspernatur, blanditiis
+        temporibus natus eum alias dolores, maiores quas tenetur similique quia</p>
+      <div class="row">
+        <div class="col-12 px-0">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.481920190112!2d29.020791314782805!3d40.992824028325735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab85d4b62176d%3A0x3ccff005be6f45fd!2zS2FkxLFrw7Z5!5e0!3m2!1str!2str!4v1644189951509!5m2!1str!2str"
+            width="100%" height="274" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+      <div class="row p-5">
+        <div class="col-md-4">
+          <div class="adres">
+            <h4 class="cizgi fw-bold">Adres:</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+          </div>
+          <div class="mail my-5">
+            <h4 class="cizgi fw-bold">Email:</h4>
+            <p>info@mail.com</p>
+          </div>
+          <div class="tel">
+            <h4 class="cizgi fw-bold">Telefon:</h4>
+            <p>555 444 33 22</p>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <form id="message">
+            <div class="row gy-4 gx-2">
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Adınız" id="firstname">
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Soyadınız" id="lastname">
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Email" id="email">
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Konu" id="subject">
+              </div>
+              <div class="col-12">
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Mesajınız"
+                  rows="4"></textarea>
+              </div>
+              <button type="submit" class="btn btn-warning w-25 mx-auto fw-bold">Gönder</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--İletişim Section End  -->
+
+
+  <!-- Footer Section Start -->
+
+  <footer id="footer">
+    <section class="py-4 footer">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-md-4">
+            <h4>İletişim</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam suscipit quidem soluta sapiente
+              pariatur, laborum eaque corrupti ad vitae</p>
+            <i class="bi bi-geo-alt-fill"></i> Lorem ipsum dolor sit amet.<br>
+            <a href="tel:+905554443322"><i class="bi bi-telephone-fill"></i> 555 444 33 22</a> <br> <a
+              href="mailto:info@gmail.com"><i class="bi bi-envelope-fill"></i> info@mail.com</a><br>
+          </div>
+          <div class="col-md-4">
+            <h4>E-Bülten Üyelik</h4>
+            <form>
+              <div class="bulten">
+                <input type="email" class="form-control" placeholder="Lütfen e-mail adresinizi yazınız.">
+              </div>
+            </form><br>
+            <p>Güncel Duyurular Hakkında Bilgi Almak için E-Bültene Üye Olun.</p>
+            <a href="#">Gizlilik Sözleşmesi</a><br>
+            <a href="#">K.V.K.K. Politikamız</a><br>
+            <a href="#">Üyelik Sözleşmesi</a>
+          </div>
+          <div class="col-md-4 icons">
+            <h4>Bizi Takip Edin</h4>
+            <p>Aliquam suscipit quidem soluta sapiente pariatur, laborum eaque corrupti ad vitae</p>
+            <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook bis"></i></a>&nbsp;
+            <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram bis"></i></a>&nbsp;
+            <a href="https://www.twiiter.com" target="_blank"><i class="bi bi-twitter bis"></i></a>&nbsp;
+            <a href="https://www.youtube.com" target="_blank"><i class="bi bi-youtube bis"></i></a>&nbsp;
+            <a href="https://www.skype.com" target="_blank"><i class="bi bi-skype bis"></i></a>&nbsp;
+            <a href="https://wa.link/4kfmph" target="_blank"><i class="bi bi-whatsapp bis"></i></a>&nbsp;
+          </div>
+        </div>
+      </div>
+      <section id="copyright" class="mt-5">
+        <div class="container">
+          <div class="row text-white">
+            <div class="col-12">
+              <p class="mt-5 font-weight-light">Copyright &copy; Cenk Web Tasarım Tüm Hakları Saklıdır.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </footer>
+
+  <!-- Footer Section End -->
+
+  <!-- Back to Top Button Start -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-chevron-up"></i></button>
+  <!-- Back to Top Button End -->
+
+  <!-- JS (Bootstrap CDN, Custom) -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
