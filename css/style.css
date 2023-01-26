@@ -267,7 +267,7 @@ h4.cizgi::before {
 
     .heading-hero h1 {
         margin-top: 70px;
-        font-size: 56px;
+        font-size: 47px;
     }
     
     .hero form {
@@ -311,7 +311,7 @@ h4.cizgi::before {
     .heading-hero p,
     .heading-hero .btn {
         position: relative;
-        top: 516px;
+        top: 575px;
         font-weight: 600;
         color: #000;
     }
